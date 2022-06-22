@@ -21,6 +21,9 @@ class ColorSelect {
 
   static const txtinput = Colors.black87;
 
+  static const blackColor = Colors.black87;
+  static const greenColor = Color(0xff76a75a);
+
   static const txtConditionPassword = Color.fromARGB(239, 189, 189, 189);
   static const txtGreyTitle = Color.fromARGB(255, 117, 117, 117);
 }

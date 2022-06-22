@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>const LoginPage()));
               }
             });
-          },
+        },
         selectedItemColor: Colors.white,
         currentIndex: 1,
         iconSize: 30,

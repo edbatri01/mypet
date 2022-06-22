@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:login_flutter/src/pages/home/home.dart';
+import 'package:login_flutter/src/pages/home/home_better.dart';
 import 'package:login_flutter/src/pages/login.dart';
 // import 'package:login_flutter/src/pages/home_header.dart';
 // import 'package:login_flutter/src/pages/login.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       
-      home: LoginPage(),
+      home: HomeBetter(),
       
     );
   }

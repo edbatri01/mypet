@@ -71,7 +71,7 @@ class _LoginSesionState extends State<LoginSesion> {
 
               textAlign: TextAlign.center,
               style:
-                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                  const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
             )));
       }
     } else {
